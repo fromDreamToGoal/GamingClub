@@ -23,3 +23,18 @@
     color: brown;
     font-weight: 600;
 }
+
+/* main section */
+
+.main {
+    background-color: hsla(206, 96%, 50%, 1);
+}
+
+.intro {
+    height: 30rem;
+    text-align: center;
+}
+
+.intro h1 {
+    
+}
