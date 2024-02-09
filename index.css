@@ -1,2 +1,25 @@
 /* header */
+.navigation {
+    background-color: hsla(167, 96%, 50%, 1);
+}
 
+.navi-list {
+    display: flex;
+    list-style: none;
+    padding: 1rem;
+    margin-left: 2rem;
+}
+
+.navi-list li {
+    margin-left: 1rem;
+    font-size: 2rem;
+} 
+
+.navi-list li a {
+    text-decoration: none;
+}
+
+.navi-list li a:hover {
+    color: brown;
+    font-weight: 600;
+}
