@@ -1,13 +1,26 @@
+/* Fonts 
+
+font-family: 'Poppins', sans-serif;
+font-family: 'Protest Revolution', sans-serif;
+font-family: 'Protest Strike', sans-serif;
+*/
+
 /* header */
+body {
+    margin: 0;
+    margin-top: 0;
+}
+
 .navigation {
-    background-color: hsla(167, 96%, 50%, 1);
+    background-color: hsla(238, 80%, 50%, 1);
+    margin-bottom: 0;
 }
 
 .navi-list {
     display: flex;
     list-style: none;
     padding: 1rem;
-    margin-left: 2rem;
+    margin: 0 2rem;
 }
 
 .navi-list li {
@@ -16,18 +29,20 @@
 } 
 
 .navi-list li a {
+    font-family: 'Poppins', sans-serif;
     text-decoration: none;
+    color: hsla(277, 80%, 50%, 1);
 }
 
 .navi-list li a:hover {
-    color: brown;
+    color: whitesmoke;
     font-weight: 600;
 }
 
 /* main section */
 
 .main {
-    background-color: hsla(206, 96%, 50%, 1);
+    background-color: hsla(277, 80%, 50%, 1);
 }
 
 .intro {
@@ -36,5 +51,8 @@
 }
 
 .intro h1 {
-    
+    font-family: 'Protest Revolution', sans-serif;
+    font-size: 5rem;
+    padding: 12rem;
+    margin-top: 0;
 }
