@@ -56,3 +56,31 @@ body {
     padding: 12rem;
     margin-top: 0;
 }
+
+.summary {
+    font-size: 2rem;
+    color: aliceblue;
+}
+
+.summary h4 {
+    font-family: 'Protest Strike', sans-serif;
+    letter-spacing: 3px;
+    padding: 0 4rem;
+}
+
+.summary p {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 0 4rem;
+    
+}
+
+.images {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.images img {
+    width: 30%;
+}
