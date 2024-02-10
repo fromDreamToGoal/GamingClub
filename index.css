@@ -31,7 +31,7 @@ body {
 .navi-list li a {
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
-    color: hsla(277, 80%, 50%, 1);
+    color: hsla(277, 80%, 85%, 1);
 }
 
 .navi-list li a:hover {
@@ -55,6 +55,7 @@ body {
     font-size: 5rem;
     padding: 12rem;
     margin-top: 0;
+    color: antiquewhite;
 }
 
 .summary {
@@ -66,6 +67,7 @@ body {
     font-family: 'Protest Strike', sans-serif;
     letter-spacing: 3px;
     padding: 0 4rem;
+    padding-left: 6.6rem;
 }
 
 .summary p {
@@ -83,4 +85,27 @@ body {
 
 .images img {
     width: 30%;
+}
+
+.fraza {
+    background-color: hsla(238, 80%, 55%, 1);
+    height: 20rem;
+    text-align: start;
+    font-size: 1.5rem;
+    padding: 0 6rem;
+    color: aliceblue;
+}
+
+.container {
+    margin-top: 1rem;
+    padding-top: 4rem;
+}
+
+.container h4 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container p {
+    font-family: 'Protest Strike', sans-serif;
+    letter-spacing: 2px;
 }
