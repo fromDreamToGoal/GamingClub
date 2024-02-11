@@ -113,3 +113,21 @@ body {
 .second {
     margin-top: 2rem;
 }
+
+.champion {
+    text-align: center;
+}
+
+.champion h4 {
+    font-size: 2rem;
+    font-family: 'Protest Strike', sans-serif;
+    letter-spacing: 2px;
+    color: aliceblue;
+    padding-bottom: 3rem;
+    margin-bottom: 0;
+}
+
+.champion img {
+    width: 60%;
+    height: auto;
+}
